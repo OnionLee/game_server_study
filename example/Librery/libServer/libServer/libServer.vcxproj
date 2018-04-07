@@ -147,12 +147,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="cSingleton.h" />
+	<ClInclude Include="cMonitor.h" />
+	<ClInclude Include="cSingleton.h" />
+    <ClInclude Include="cThread.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cSingleton.cpp" />
+    <ClCompile Include="cMonitor.cpp" />
+	<ClCompile Include="cSingleton.cpp" />
+	<ClCompile Include="cThread.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="libServer.cpp" />
     <ClCompile Include="stdafx.cpp">

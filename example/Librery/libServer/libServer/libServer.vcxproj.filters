@@ -21,6 +21,12 @@
     <ClInclude Include="targetver.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="cMonitor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cThread.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
     <ClInclude Include="cSingleton.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -33,6 +39,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="dllmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonitor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cThread.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="cSingleton.cpp">
