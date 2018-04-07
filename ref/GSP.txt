@@ -1,0 +1,26 @@
+https://github.com/zeliard/GSP
+
+1. https://www.slideshare.net/sm9kr/gsp-0-tcpio
+->https://www.slideshare.net/namhyeonuk90/tcp-ip-io-model
+
+2. https://www.slideshare.net/sm9kr/gsp-1-iocp
+->https://www.slideshare.net/namhyeonuk90/iocp
+
+3. https://www.slideshare.net/sm9kr/gsp-2-iocp
+->https://www.slideshare.net/namhyeonuk90/iocp-advanced
+
+4. https://www.slideshare.net/sm9kr/gsp-3-pooling
+->http://www.slideshare.net/namhyeonuk90/memory-object-pooling
+
+5. https://www.slideshare.net/sm9kr/gsp-4-multithread
+->http://www.slideshare.net/namhyeonuk90/multi-thread
+
+6. https://www.slideshare.net/sm9kr/gsp-5-database
+
+7. https://www.slideshare.net/sm9kr/gsp-6
+
+8. https://www.slideshare.net/sm9kr/gsp-7
+
+9. https://www.slideshare.net/sm9kr/gsp-8
+
+
