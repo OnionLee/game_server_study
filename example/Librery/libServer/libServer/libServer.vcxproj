@@ -153,6 +153,7 @@
     <ClInclude Include="cThread.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="cQueue.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cMonitor.cpp" />
