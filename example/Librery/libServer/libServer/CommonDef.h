@@ -1,0 +1,5 @@
+#pragma once
+
+#define MAX_VBUFFER_SIZE 1024
+#define PACKET_SIZE_LENGTH 4
+#define MAX_PBUFSIZE 256

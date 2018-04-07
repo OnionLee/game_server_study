@@ -8,15 +8,15 @@ public:\
 private:\
 	static className * m_pInstance;
 
-#define CREATE_FUNCTION (className, funcName)\
+#define CREATE_FUNCTION(className, funcName)\
 	static className * ##funcName()\
 	{\
-	return className:Instance();\
+	return className::Instance();\
 	}
 
 #define IMPLEMENT_SINGLETON(className)\
-	className * className:m_pInstance=NULL;\
-	className * className:Instance()\
+	className * className::m_pInstance=NULL;\
+	className * className::Instance()\
 	{\
 		if(NULL == m_pInstance)\
 		{\
@@ -24,7 +24,7 @@ private:\
 		}\
 	return m_pInstance;\
 	}\
-	void className:releaseInstance()\
+	void className::releaseInstance()\
 	{\
 		if(NULL != m_pInstance)\
 		{\
