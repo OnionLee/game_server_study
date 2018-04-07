@@ -147,10 +147,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="cThread.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="cThread.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="libServer.cpp" />
     <ClCompile Include="stdafx.cpp">
