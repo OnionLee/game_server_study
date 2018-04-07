@@ -1,5 +1,5 @@
 #pragma once
-class cThread
+class NETLIB_API cThread
 {
 public:
 	cThread();
