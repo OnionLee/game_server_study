@@ -30,6 +30,12 @@
     <ClInclude Include="cSingleton.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="cQueue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cRingBuffer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
     <ClInclude Include="cVBuffer.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -54,6 +60,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="cSingleton.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cRingBuffer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="cVBuffer.cpp">

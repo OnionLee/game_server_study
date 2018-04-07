@@ -147,19 +147,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="cMonitor.h" />
-    <ClInclude Include="CommonDef.h" />
-    <ClInclude Include="cSingleton.h" />
+	<ClInclude Include="cRingBuffer.h" />
+	<ClInclude Include="cMonitor.h" />
+	<ClInclude Include="cSingleton.h" />
     <ClInclude Include="cThread.h" />
     <ClInclude Include="cVBuffer.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="cQueue.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cMonitor.cpp" />
+    <ClCompile Include="cRingBuffer.cpp" />
     <ClCompile Include="cSingleton.cpp" />
     <ClCompile Include="cThread.cpp" />
-    <ClCompile Include="cVBuffer.cpp" />
+	<ClCompile Include="cVBuffer.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="libServer.cpp" />
     <ClCompile Include="stdafx.cpp">
